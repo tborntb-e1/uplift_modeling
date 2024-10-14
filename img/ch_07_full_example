@@ -1,0 +1,8 @@
+digraph {
+	treatment [pos="2,2.5!"]
+	spend [pos="3,1!"]
+	X [pos="3,0!"]
+	treatment -> spend
+	treatment -> X
+	X -> spend
+}

@@ -1,0 +1,24 @@
+digraph {
+	recency [pos="0,3!"]
+	history [pos="1,3!"]
+	mens [pos="2,3!"]
+	womens [pos="3,3!"]
+	zip_code [pos="4,3!"]
+	newbie [pos="5,3!"]
+	channel [pos="6,3!"]
+	segment [pos="3,1!"]
+	visit [pos="2.5,2!"]
+	conversion [pos="3.5,2!"]
+	spend [pos="3,0!"]
+	segment -> spend
+	recency -> spend
+	history -> spend
+	mens -> spend
+	womens -> spend
+	zip_code -> spend
+	newbie -> spend
+	channel -> spend
+	segment -> visit
+	visit -> conversion
+	conversion -> spend
+}
