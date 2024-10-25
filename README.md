@@ -12,11 +12,7 @@ The primary objectives are:
 - Benchmark results using traditional regression models and evaluate the performance of each meta-learner.
 - Conduct robustness checks and sensitivity analyses to estimate the business impact. 
 
-## Data Description
-
-The dataset consists of information on 64,000 customers who participated in an email campaign test, provided by Kevin Hillstrom [Source](https://blog.minethatdata.com/). Key features include demographic details, purchase history, and campaign engagement metrics.
-
-![Data Overview](https://github.com/user-attachments/assets/92e3f8b2-ff03-43e7-8f9c-7d6e00f61568)
+You can read more about each meta-learner approach in my [Medium article](https://medium.com/@LillyH/part-2-1-conditional-treatment-heterogenous-effect-estimation-cate-w-7a25916bc6e7).
 
 
 ## Tech Stack
