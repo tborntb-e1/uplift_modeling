@@ -20,12 +20,9 @@ The dataset consists of information on 64,000 customers who participated in an e
 
 ## Approach
 
-### 1. Exploratory Data Analysis (EDA)
-- Analyzed customer behavior and spending patterns.
-- Assessed **covariate balance** between control and treatment groups to ensure a fair comparison.
-- Visualized **key metrics** (e.g., spending distribution, click-through rates).
+### Check Randomization Assumption
 
-### 2. Methodology: Meta-Learners
+### Methodology: Meta-Learners
 Meta-learners were used to estimate **CATE** across different customer segments:
 - You can read more about each meta-learner approach in my [Medium article](https://medium.com/@LillyH/part-2-1-conditional-treatment-heterogenous-effect-estimation-cate-w-7a25916bc6e7).
 
