@@ -18,21 +18,6 @@ The dataset consists of information on 64,000 customers who participated in an e
 
 ![Data Overview](https://github.com/user-attachments/assets/92e3f8b2-ff03-43e7-8f9c-7d6e00f61568)
 
-## Approach
-
-### Check Randomization Assumption
-
-### Methodology: Meta-Learners
-Meta-learners were used to estimate **CATE** across different customer segments:
-- You can read more about each meta-learner approach in my [Medium article](https://medium.com/@LillyH/part-2-1-conditional-treatment-heterogenous-effect-estimation-cate-w-7a25916bc6e7).
-
-### 3. Evaluation
-- **Uplift Metrics**: Performance was evaluated using **uplift scores**, which measure how effectively each model ranks differential responses to the email campaign.
-
-## Results
-- Identified customer segments more likely to increase spending when exposed to the email campaign.
-- Compared the performance of different meta-learners, highlighting models that effectively captured treatment heterogeneity.
-- Demonstrated the incremental impact of the email campaign, suggesting optimal customer targeting strategies.
 
 ## Tech Stack
 - **Languages**: Python
